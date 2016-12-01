@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.sqlite.MainActivity">
+
+    <Button
+        android:id="@+id/main_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建" />
+
+    <Button
+        android:id="@+id/main_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新增" />
+    <TextView
+        android:id="@+id/main_add_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除" />
+    <TextView
+        android:id="@+id/main_delete_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新" />
+    <TextView
+        android:id="@+id/main_update_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_retrieve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查找" />
+    <TextView
+
+        android:id="@+id/main_retrieve_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main_things"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="事物" />
+
+</LinearLayout>

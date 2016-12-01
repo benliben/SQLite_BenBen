@@ -1,0 +1,10 @@
+<litepal>
+    <dbname value="demo"></dbname>//用于设定数据库的名字
+    <version value="1"></version>//用于设定数据库的版本号
+    <list>
+        <mapping class="com.example.administrator.sqlite.db.News"></mapping>
+        <mapping class="com.example.administrator.sqlite.db.Comment"></mapping>
+        <mapping class="com.example.administrator.sqlite.db.Category"></mapping>
+        <mapping class="com.example.administrator.sqlite.db.Introduction"></mapping>
+    </list>// 用于设定所有的映射模型
+</litepal>
